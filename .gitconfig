@@ -1,0 +1,5 @@
+[user]
+	name = frosh
+	email = git@frosh.nl
+[core]
+	editor = vscode

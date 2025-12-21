@@ -1,0 +1,19 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.zshrc: .zshrc
+    ~/.zprofile: .zprofile
+    ~/.gitconfig: .gitconfig
+
+- create:
+    - ~/src
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
+
+- brewfile:
+  - Brewfile
