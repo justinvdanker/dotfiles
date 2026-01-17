@@ -1,6 +1,6 @@
 eval "$(starship init zsh)"
 
-if [ -f ~/.zshrc.local ]; then source ~/.zshrc.local;
+export SSH_AUTH_SOCK=/Users/frosh/.bitwarden-ssh-agent.sock
 
 alias srczsh='source ~/.zshrc'
 

@@ -22,6 +22,7 @@ cask "brave-browser"
 cask "logi-options+"
 cask "protonvpn"
 cask "proton-mail"
+cask "proton-drive"
 cask "steam"
 
 # App Store apps
