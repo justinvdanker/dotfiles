@@ -5,9 +5,15 @@
 - clean: ['~']
 
 - link:
-    ~/.zshrc: .zshrc
-    ~/.zprofile: .zprofile
-    ~/.gitconfig: .gitconfig
+    ~/.zshrc: 
+      force: true
+      path: .zshrc
+    ~/.zprofile:
+      force: true
+      path: .zprofile
+    ~/.gitconfig:
+      force: true
+      path: .gitconfig
 
 - create:
     - ~/src
