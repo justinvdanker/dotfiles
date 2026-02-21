@@ -24,6 +24,8 @@ cask "protonvpn"
 cask "proton-mail"
 cask "proton-drive"
 cask "steam"
+cask "calibre"
 
 # App Store apps
-mas "Numbers", id: 409203825
+mas "Numbers", id: 361304891
+mas "Pages", id: 361309726

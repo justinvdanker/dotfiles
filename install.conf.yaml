@@ -20,6 +20,8 @@
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
-
+  - command: brew bundle cleanup --force
+    stdout: true
+    
 - brewfile:
   - Brewfile
