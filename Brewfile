@@ -25,6 +25,8 @@ cask "proton-mail"
 cask "proton-drive"
 cask "steam"
 cask "calibre"
+cask "retroarch"
+cask "plex"
 
 # App Store apps
 mas "Numbers", id: 361304891
