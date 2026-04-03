@@ -27,6 +27,10 @@ cask "steam"
 cask "calibre"
 cask "retroarch"
 cask "plex"
+cask "figma"
+cask "cursor"
+cask "raycast"
+cask "slack"
 
 # App Store apps
 mas "Numbers", id: 361304891
