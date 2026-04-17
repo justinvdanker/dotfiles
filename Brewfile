@@ -4,6 +4,8 @@ brew "pulumi"
 brew "bitwarden-cli"
 brew "git"
 brew "starship"
+brew "postgresql@18"
+brew "go"
 
 # Fonts
 cask "font-jetbrains-mono-nerd-font"
@@ -31,6 +33,11 @@ cask "figma"
 cask "cursor"
 cask "raycast"
 cask "slack"
+cask "claude"
+cask "claude-code"
+cask "dotnet-sdk"
+cask "rider"
+cask "bartender"
 
 # App Store apps
 mas "Numbers", id: 361304891
