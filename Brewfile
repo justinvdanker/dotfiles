@@ -37,7 +37,6 @@ cask "claude"
 cask "claude-code"
 cask "dotnet-sdk"
 cask "rider"
-cask "bartender"
 
 # App Store apps
 mas "Numbers", id: 361304891
